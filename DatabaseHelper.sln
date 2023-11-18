@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.App", "DatabaseHelper.App\DatabaseHelper.App.csproj", "{405DD5DA-6980-4E70-ADF0-E53129970149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseHelper", "DatabaseHelper", "{1A5B1E10-138F-4873-BB5B-8F3CBFF9A158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseHelper.Common", "DatabaseHelper.Common", "{352B4857-206E-43D9-9406-23F7E7920761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseHelper.MsSql", "DatabaseHelper.MsSql", "{8858EE5E-AF6F-4AF4-B419-216E1FF78938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseHelper.Oracle", "DatabaseHelper.Oracle", "{776E3F34-4FCA-4469-8D9B-CB87BF4E31B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.Common", "DatabaseHelper.Common\DatabaseHelper.Common.csproj", "{0078C1D3-3A47-4206-887A-29F66809768E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.MsSql", "SqlDatabase\DatabaseHelper.MsSql.csproj", "{1A67D935-0B70-4FD4-B655-C449AA8E9C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.Oracle", "DatabaseHelper.Oracle\DatabaseHelper.Oracle.csproj", "{94FB3A53-AA95-4092-B6A1-47707C5E3EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{405DD5DA-6980-4E70-ADF0-E53129970149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405DD5DA-6980-4E70-ADF0-E53129970149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405DD5DA-6980-4E70-ADF0-E53129970149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405DD5DA-6980-4E70-ADF0-E53129970149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0078C1D3-3A47-4206-887A-29F66809768E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0078C1D3-3A47-4206-887A-29F66809768E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0078C1D3-3A47-4206-887A-29F66809768E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0078C1D3-3A47-4206-887A-29F66809768E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A67D935-0B70-4FD4-B655-C449AA8E9C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A67D935-0B70-4FD4-B655-C449AA8E9C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A67D935-0B70-4FD4-B655-C449AA8E9C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A67D935-0B70-4FD4-B655-C449AA8E9C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FB3A53-AA95-4092-B6A1-47707C5E3EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FB3A53-AA95-4092-B6A1-47707C5E3EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FB3A53-AA95-4092-B6A1-47707C5E3EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FB3A53-AA95-4092-B6A1-47707C5E3EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{405DD5DA-6980-4E70-ADF0-E53129970149} = {1A5B1E10-138F-4873-BB5B-8F3CBFF9A158}
+		{0078C1D3-3A47-4206-887A-29F66809768E} = {352B4857-206E-43D9-9406-23F7E7920761}
+		{1A67D935-0B70-4FD4-B655-C449AA8E9C5A} = {8858EE5E-AF6F-4AF4-B419-216E1FF78938}
+		{94FB3A53-AA95-4092-B6A1-47707C5E3EDF} = {776E3F34-4FCA-4469-8D9B-CB87BF4E31B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {354A70B2-591E-4516-AC00-8D809290C518}
+	EndGlobalSection
+EndGlobal
