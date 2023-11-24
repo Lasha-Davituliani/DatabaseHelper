@@ -15,7 +15,8 @@ namespace DatabaseHelper.App
             {
                 Console.WriteLine($"{dr["ProductID"]} {dr["ProductName"]}");
             }
-            
+            Console.WriteLine();
+
         }
     }
 }
